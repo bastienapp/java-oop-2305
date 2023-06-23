@@ -8,6 +8,10 @@ public class ProductClothing extends Product {
     private String[] colours;
     private String[] materials;
 
+    public ProductClothing() {
+        super();
+    }
+
     public ProductClothing(
             String uuidValue,
             String nameValue,

@@ -10,6 +10,8 @@ public abstract class Product {
     private String description;
     private Double price;
 
+    public Product() {}
+
     // constructor (si rien n'est renseigné, il possède un constructeur vide)
     public Product(
             String uuidValue,
